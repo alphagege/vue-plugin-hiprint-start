@@ -3,8 +3,8 @@
  * @Author: CcSimple
  * @Github: https://github.com/CcSimple
  * @Date: 2023-02-07 11:52:50
- * @LastEditors: CcSimple
- * @LastEditTime: 2023-02-11 15:50:41
+ * @LastEditors: dongwj
+ * @LastEditTime: 2025-02-18 17:09:15
 -->
 <template>
   <div class="flex-col">
@@ -105,6 +105,7 @@ import { useZoom } from "../hooks/use-zoom";
 import { newHiprintPrintTemplate } from "../utils/template-helper";
 
 const TEMPLATE_KEY = getCurrentInstance().type.name; // 存储模板对象的 key
+console.log("TEMPLATE_KEY",TEMPLATE_KEY)
 const { paperTypes, curPaperType, paperPopVisible, paperWidth, paperHeight, showPaperPop, setPaper, setPaperOther } = usePaper(TEMPLATE_KEY);
 const { scaleValue, changeScale } = useZoom(TEMPLATE_KEY);
 
@@ -188,7 +189,7 @@ const print = () => {
     },
     styleHandler: () => {
       // 重写 文本 打印样式
-      return "<style>.hiprint-printElement-text{color:red !important;}</style>";
+      return "";
     },
   };
   // 调用浏览器打印

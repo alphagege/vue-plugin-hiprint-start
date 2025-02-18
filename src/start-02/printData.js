@@ -1,52 +1,71 @@
-export default {
-  name: "黄磊",
-  logoTest: "https://portrait.gitee.com/uploads/avatars/user/1800/5400665_CcSimple_1591166830.png!avatar60",
-  password: "12346",
-  longText:
-    "浙江在线3月29日讯最近，\n一篇小学五年级学生写的作文引起了钱报记者的关注这篇作文的题目叫做《脏话风波》，讲述的是小作者班级里发生的一种不文明现象——讲脏话的同学越来越多，有的人说话甚至句句“带把儿”。班主任为了遏制这种现象，煞费苦心想了很多办法，跟学生斗智斗勇……看到这篇作文，记者突然想到，自己读六年级的儿子有天突然冒出一句脏话。此前，他是从不说脏话的。问他怎么学会的，他也说不出个所以然来。于是，记者做了这个小学生脏话现象调查。经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文《脏话风波》浙江在线3月29日讯最近，一篇小学五年级学生写的作文引起了钱报记者的关注。这篇作文的题目叫做《脏话风波》，讲述的是小作者班级里发生的一种不文明现象——讲脏话的同学越来越多，有的人说话甚至句句“带把儿”。班主任为了遏制这种现象，煞费苦心想了很多办法，跟学生斗智斗勇……看到这篇作文，记者突然想到，自己读六年级的儿子有天突然冒出一句脏话。此前，他是从不说脏话的。问他怎么学会的，他也说不出个所以然来。于是，记者做了这个小学生脏话现象调查。经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文《脏话风波》浙江在线3月29日讯最近，一篇小学五年级学生写的作文引起了钱报记者的关注。这篇作文的题目叫做《脏话风波》，讲述的是小作者班级里发生的一种不文明现象——讲脏话的同学越来越多，有的人说话甚至句句“带把儿”。班主任为了遏制这种现象，煞费苦心想了很多办法，跟学生斗智斗勇……看到这篇作文，记者突然想到，自己读六年级的儿子有天突然冒出一句脏话。此前，他是从不说脏话的。问他怎么学会的，他也说不出个所以然来。于是，记者做了这个小学生脏话现象调查。经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文《脏话风波》浙江在线3月29日讯最近，一篇小学五年级学生写的作文引起了钱报记者的关注。这篇作文的题目叫做《脏话风波》，讲述的是小作者班级里发生的一种不文明现象——讲脏话的同学越来越多，有的人说话甚至句句“带把儿”。班主任为了遏制这种现象，煞费苦心想了很多办法，跟学生斗智斗勇……看到这篇作文，记者突然想到，自己读六年级的儿子有天突然冒出一句脏话。此前，他是从不说脏话的。问他怎么学会的，他也说不出个所以然来。于是，记者做了这个小学生脏话现象调查。经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文《脏话风波》浙江在线3月29日讯最近，一篇小学五年级学生写的作文引起了钱报记者的关注。这篇作文的题目叫做《脏话风波》，讲述的是小作者班级里发生的一种不文明现象——讲脏话的同学越来越多，有的人说话甚至句句“带把儿”。班主任为了遏制这种现象，煞费苦心想了很多办法，跟学生斗智斗勇……看到这篇作文，记者突然想到，自己读六年级的儿子有天突然冒出一句脏话。此前，他是从不说脏话的。问他怎么学会的，他也说不出个所以然来。于是，记者做了这个小学生脏话现象调查。经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文讲述的是小作者班级里发生的一种不文明现象——讲脏话的同学越来越多，有的人说话甚至句句“带把儿”。班主任为了遏制这种现象，煞费苦心想了很多办法，跟学生斗智斗勇……看到这篇作文，记者突然想到，自己读六年级的儿子有天突然冒出一句脏话。此前，他是从不说脏话的。问他怎么学会的，他也说不出个所以然来。于是，记者做了这个小学生脏话现象调查。经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文讲述的是小作者班级里发生的一种不文明现象——讲脏话的同学越来越多，有的人说话甚至句句“带把儿”。班主任为了遏制这种现象，煞费苦心想了很多办法，跟学生斗智斗勇……看到这篇作文，记者突然想到，自己读六年级的儿子有天突然冒出一句脏话。此前，他是从不说脏话的。问他怎么学会的，他也说不出个所以然来。于是，记者做了这个小学生脏话现象调查。经过了解才发现，小学生爱说脏话竟然较为普遍，一般三年级会冒出苗头。无论是学习成绩好的，还是平时不太起眼的，都会说脏话。而且，说脏话会“传染”，一旦冒头不制止，到了五六年级甚至可能在班里大爆发。以下为作文",
-  table: [
-    { id: "1", name: "王小可", gender: "男", count: "120", amount: "9089元" },
-    { id: "2", name: "梦之遥", gender: "女", count: "20", amount: "89元" },
-    { id: "3", name: "梦之遥", gender: "女", count: "720", amount: "29089元" },
-    { id: "4", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "5", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "6", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "7", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "8", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "9", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "10", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "11", name: "王小可", gender: "男", count: "120", amount: "9089元" },
-    { id: "12", name: "梦之遥", gender: "女", count: "20", amount: "89元" },
-    { id: "13", name: "梦之遥", gender: "女", count: "720", amount: "29089元" },
-    { id: "14", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "15", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "16", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "17", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "18", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "19", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "20", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "21", name: "王小可", gender: "男", count: "120", amount: "9089元" },
-    { id: "22", name: "梦之遥", gender: "女", count: "20", amount: "89元" },
-    { id: "23", name: "梦之遥", gender: "女", count: "720", amount: "29089元" },
-    { id: "24", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "25", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "26", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "27", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "28", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "29", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "21", name: "王小可", gender: "男", count: "120", amount: "9089元" },
-    { id: "22", name: "梦之遥", gender: "女", count: "20", amount: "89元" },
-    { id: "23", name: "梦之遥", gender: "女", count: "720", amount: "29089元" },
-    { id: "24", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "25", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "26", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "27", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "28", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "29", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "21", name: "王小可", gender: "男", count: "120", amount: "9089元" },
-    { id: "22", name: "梦之遥", gender: "女", count: "20", amount: "89元" },
-    { id: "23", name: "梦之遥", gender: "女", count: "720", amount: "29089元" },
-    { id: "29", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-    { id: "30", name: "黄小菊", gender: "女", count: "420", amount: "19089元" },
-  ],
-};
+/*
+ * @Author: dongwj dongwj@sinomis.com
+ * @Date: 2025-02-18 11:06:36
+ * @LastEditTime: 2025-02-18 17:08:08
+ * @LastEditors: dongwj
+ * @Description: 
+ * @FilePath: /vue-plugin-hiprint-start/src/start-02/printData.js
+ */
+export default [
+  {
+    "hospitalName": "西安国际医学医院",
+    "assetsId": "1889938239373815810", 
+    "assetsCode": "ZC2025021300003", 
+    "assetsName": "资产1", 
+    "commonName": "", 
+    "belongDept": "临床科1", 
+    "useDeptOrWarehouseName": "临床科11", 
+    "assetsStatus": "0", 
+    "prtStas": "0", 
+    "startDate": null, 
+    "usePeriod": null, 
+    "medicalInstrumentscategory": "", 
+    "manufacturerBrand": null, 
+    "supplierName": "", 
+    "snCode": "", 
+    "purcPric": null
+  },
+  {
+    "hospitalName": "西安国际医学医院1",
+    "assetsId": "1889938239373815810", 
+    "assetsCode": "ZC2025021300003", 
+    "assetsName": "资产2", 
+    "commonName": "", 
+    "belongDept": "临床科2", 
+    "useDeptOrWarehouseName": "临床科11", 
+    "assetsStatus": "0", 
+    "prtStas": "0", 
+    "startDate": null, 
+    "usePeriod": null, 
+    "medicalInstrumentscategory": "", 
+    "manufacturerBrand": null, 
+    "supplierName": "", 
+    "snCode": "", 
+    "purcPric": null
+  },
+  {
+    "hospitalName": "西安国际医学医院",
+    "assetsId": "1889938239373815810", 
+    "assetsCode": "ZC2025021300003", 
+    "assetsName": "资产3", 
+    "commonName": "", 
+    "belongDept": "临床科3", 
+    "useDeptOrWarehouseName": "临床科11", 
+    "assetsStatus": "0", 
+    "prtStas": "0", 
+    "startDate": null, 
+    "usePeriod": null, 
+    "medicalInstrumentscategory": "", 
+    "manufacturerBrand": null, 
+    "supplierName": "", 
+    "snCode": "", 
+    "purcPric": null
+  }
+ 
+];
+
+
+// [ 
+//   { "assetsId": "1889938239373815810", "assetsCode": "ZC2025021300003", "assetsName": "资产3", "commonName": "", "belongDept": "临床科11", "useDeptOrWarehouseName": "临床科11", "assetsStatus": "0", "prtStas": "0", "startDate": null, "usePeriod": null, "medicalInstrumentscategory": "", "manufacturerBrand": null, "supplierName": "", "snCode": "", "purcPric": null }, 
+//   { "assetsId": "1889926894410641410", "assetsCode": "ZC2025021300002", "assetsName": "资产2", "commonName": "", "belongDept": "临床科11", "useDeptOrWarehouseName": "临床科11", "assetsStatus": "5", "prtStas": "0", "startDate": null, "usePeriod": null, "medicalInstrumentscategory": "", "manufacturerBrand": null, "supplierName": "", "snCode": "", "purcPric": null } 
+// ]

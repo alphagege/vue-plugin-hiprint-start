@@ -36,6 +36,7 @@ export function useZoom(key) {
       if (scaleValue < state.scaleMin) scaleValue = 0.5;
     }
     if (tp()) {
+      console.log("scaleValue",scaleValue)
       // scaleValue: 放大缩小值, false: 不保存(不传也一样), 如果传 true, 打印时也会放大
       tp().zoom(scaleValue);
       state.scaleValue = scaleValue;

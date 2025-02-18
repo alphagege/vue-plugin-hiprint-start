@@ -3,8 +3,8 @@
  * @Author: CcSimple
  * @Github: https://github.com/CcSimple
  * @Date: 2023-02-09 10:40:26
- * @LastEditors: CcSimple
- * @LastEditTime: 2023-02-09 11:37:21
+ * @LastEditors: dongwj
+ * @LastEditTime: 2025-02-18 16:06:44
  */
 import { hiprint } from "vue-plugin-hiprint";
 export const provider1 = function (options) {

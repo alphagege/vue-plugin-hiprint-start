@@ -1,363 +1,432 @@
 export default {
-  panels: [
-    {
-      index: 0,
-      height: 297,
-      width: 210,
-      paperHeader: 49.5,
-      paperFooter: 780,
-      printElements: [
+    "panels": [
         {
-          options: {
-            left: 175.5,
-            top: 10.5,
-            height: 27,
-            width: 259,
-            title: "HiPrint自定义模块打印插件",
-            fontSize: 19,
-            fontWeight: "600",
-            textAlign: "center",
-            lineHeight: 26,
-            coordinateSync: true,
-            widthHeightSync: true,
-            draggable: false,
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 60, top: 27, height: 13, width: 52, title: "页眉线", textAlign: "center" },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 25.5, top: 57, height: 705, width: 9, fixed: true, borderStyle: "dotted" },
-          printElementType: { type: "vline" },
-        },
-        {
-          options: { left: 60, top: 61.5, height: 48, width: 87, src: "", fit: "contain" },
-          printElementType: { title: "图片", type: "image" },
-        },
-        {
-          options: {
-            left: 153,
-            top: 64.5,
-            height: 39,
-            width: 276,
-            title: "二维码以及条形码均采用svg格式打印。不同打印机打印不会造成失真。图片打印：不同DPI打印可能会导致失真，",
-            fontFamily: "微软雅黑",
-            textAlign: "center",
-            lineHeight: 18,
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 457.5,
-            top: 79.5,
-            height: 13,
-            width: 120,
-            title: "姓名",
-            field: "name",
-            testData: "古力娜扎",
-            color: "#f00808",
-            textDecoration: "underline",
-            textAlign: "center",
-            fields: [
-              { text: "id", field: "id" },
-              { text: "姓名", field: "name" },
-              { text: "性别", field: "gender" },
-              { text: "数量", field: "count" },
+            "index": 0,
+            "name": 1,
+            "height": 297,
+            "width": 210,
+            "paperHeader": 49.5,
+            "paperFooter": 780,
+            "printElements": [
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 121.5,
+                        "height": 156,
+                        "width": 277,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "right": 401.25,
+                        "bottom": 241.5,
+                        "vCenter": 296.25,
+                        "hCenter": 181.5
+                    },
+                    "printElementType": {
+                        "title": "矩形",
+                        "type": "rect"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 123,
+                        "height": 24,
+                        "width": 276,
+                        "title": "文本",
+                        "right": 468,
+                        "bottom": 132,
+                        "vCenter": 330,
+                        "hCenter": 127.125,
+                        "field": "hospitalName",
+                        "testData": "xxxxxxxxxxx",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontSize": 18,
+                        "fontWeight": "600",
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 147.5,
+                        "height": 9,
+                        "width": 276,
+                        "borderWidth": "0.75",
+                        "right": 465.75,
+                        "bottom": 159,
+                        "vCenter": 327.75,
+                        "hCenter": 154.5,
+                        "coordinateSync": false,
+                        "widthHeightSync": false
+                    },
+                    "printElementType": {
+                        "title": "横线",
+                        "type": "hline"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 259.5,
+                        "top": 148.5,
+                        "height": 129,
+                        "width": 9,
+                        "right": 267.75,
+                        "bottom": 279,
+                        "vCenter": 263.25,
+                        "hCenter": 213.75
+                    },
+                    "printElementType": {
+                        "title": "竖线",
+                        "type": "vline"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 262.5,
+                        "top": 156,
+                        "height": 9.75,
+                        "width": 199.5,
+                        "title": "文本",
+                        "right": 453.75,
+                        "bottom": 165.75,
+                        "vCenter": 357.75,
+                        "hCenter": 160.875,
+                        "field": "assetsName",
+                        "testData": "xxxxxxxxxxxxxxxx",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 156,
+                        "height": 9.75,
+                        "width": 67.5,
+                        "title": "资产名称",
+                        "right": 313.5,
+                        "bottom": 165.75,
+                        "vCenter": 253.5,
+                        "hCenter": 160.875,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "textAlign": "center",
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 171.69,
+                        "height": 9,
+                        "width": 276,
+                        "borderWidth": "0.75",
+                        "right": 468.24609375,
+                        "bottom": 177.75,
+                        "vCenter": 330.24609375,
+                        "hCenter": 173.25,
+                        "coordinateSync": false,
+                        "widthHeightSync": false
+                    },
+                    "printElementType": {
+                        "title": "横线",
+                        "type": "hline"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 262.5,
+                        "top": 180,
+                        "height": 9.75,
+                        "width": 199.5,
+                        "title": "文本",
+                        "right": 462.24609375,
+                        "bottom": 189.99609375,
+                        "vCenter": 362.49609375,
+                        "hCenter": 185.12109375,
+                        "field": "belongDept",
+                        "testData": "xxxxxxxxxxxxxxxx",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 180,
+                        "height": 9.75,
+                        "width": 67.5,
+                        "title": "所属科室",
+                        "right": 260.49609375,
+                        "bottom": 189.99609375,
+                        "vCenter": 226.74609375,
+                        "hCenter": 185.12109375,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "textAlign": "center",
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 195.88,
+                        "height": 9,
+                        "width": 276,
+                        "borderWidth": "0.75",
+                        "right": 465.99609375,
+                        "bottom": 206.4375,
+                        "vCenter": 327.99609375,
+                        "hCenter": 201.9375,
+                        "coordinateSync": false,
+                        "widthHeightSync": false
+                    },
+                    "printElementType": {
+                        "title": "横线",
+                        "type": "hline"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 262.5,
+                        "top": 204,
+                        "height": 9.75,
+                        "width": 199.5,
+                        "title": "文本",
+                        "right": 465,
+                        "bottom": 215.25,
+                        "vCenter": 365.25,
+                        "hCenter": 210.375,
+                        "field": "assetsCode",
+                        "testData": "xxxxxxxxxxxxxxxx",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 204,
+                        "height": 9.75,
+                        "width": 67.5,
+                        "title": "资产编码",
+                        "right": 313.5,
+                        "bottom": 165.75,
+                        "vCenter": 253.5,
+                        "hCenter": 160.875,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "textAlign": "center",
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 220.07,
+                        "height": 9,
+                        "width": 276,
+                        "borderWidth": "0.75",
+                        "right": 468.99609375,
+                        "bottom": 224.625,
+                        "vCenter": 330.99609375,
+                        "hCenter": 220.125,
+                        "coordinateSync": false,
+                        "widthHeightSync": false
+                    },
+                    "printElementType": {
+                        "title": "横线",
+                        "type": "hline"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 411,
+                        "top": 220.5,
+                        "height": 57,
+                        "width": 9
+                    },
+                    "printElementType": {
+                        "title": "竖线",
+                        "type": "vline"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 415,
+                        "top": 224,
+                        "height": 50,
+                        "width": 50,
+                        "field": "assetsId",
+                        "testData": "XS888888888",
+                        "fontSize": 12,
+                        "lineHeight": 18,
+                        "textType": "qrcode",
+                        "title": "二维码",
+                        "qid": "qrcode",
+                        "right": 466.25,
+                        "bottom": 272.75,
+                        "vCenter": 441.25,
+                        "hCenter": 247.75,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "二维码",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 262.5,
+                        "top": 232.5,
+                        "height": 9.75,
+                        "width": 145.5,
+                        "title": "文本",
+                        "right": 417,
+                        "bottom": 242.25,
+                        "vCenter": 341.25,
+                        "hCenter": 237.375,
+                        "field": "manufacturerBrand",
+                        "testData": "xxxxxxxxxxxxxxxx",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 232.5,
+                        "height": 9.75,
+                        "width": 67.5,
+                        "title": "规格型号",
+                        "right": 259.74609375,
+                        "bottom": 242.49609375,
+                        "vCenter": 225.99609375,
+                        "hCenter": 237.62109375,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "textAlign": "center",
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 252,
+                        "height": 9,
+                        "width": 219,
+                        "borderWidth": 0.75,
+                        "right": 282.75,
+                        "bottom": 261,
+                        "vCenter": 237.75,
+                        "hCenter": 256.5
+                    },
+                    "printElementType": {
+                        "title": "横线",
+                        "type": "hline"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 192,
+                        "top": 261,
+                        "height": 9.75,
+                        "width": 67.5,
+                        "title": "启用日期",
+                        "right": 256.74609375,
+                        "bottom": 269.49609375,
+                        "vCenter": 222.99609375,
+                        "hCenter": 264.62109375,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "textAlign": "center",
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 262.5,
+                        "top": 261,
+                        "height": 9.75,
+                        "width": 145.5,
+                        "title": "文本",
+                        "right": 407.49609375,
+                        "bottom": 271.74609375,
+                        "vCenter": 334.74609375,
+                        "hCenter": 266.87109375,
+                        "field": "startDate",
+                        "testData": "xxxxxxxxxxxxxxxx",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                }
             ],
-          },
-          printElementType: { title: "文本", type: "text" },
-        },
-        {
-          options: {
-            left: 483,
-            top: 124.5,
-            height: 43,
-            width: 51,
-            title: "123456789",
-            textType: "qrcode",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 285,
-            top: 130.5,
-            height: 34,
-            width: 175,
-            title: "123456789",
-            fontFamily: "微软雅黑",
-            textAlign: "center",
-            textType: "barcode",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 60,
-            top: 132,
-            height: 19,
-            width: 213,
-            title: "所有打印元素都可已拖拽的方式来改变元素大小",
-            fontFamily: "微软雅黑",
-            textAlign: "center",
-            lineHeight: 18,
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 153,
-            top: 189,
-            height: 13,
-            width: 238,
-            title: "单击元素，右侧可自定义元素属性",
-            textAlign: "center",
-            fontFamily: "微软雅黑",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 60, top: 190.5, height: 13, width: 51, title: "横线", textAlign: "center" },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 415.5,
-            top: 190.5,
-            height: 13,
-            width: 164,
-            title: "可以配置各属性的默认值",
-            textAlign: "center",
-            fontFamily: "微软雅黑",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 60, top: 214.5, height: 10, width: 475.5 },
-          printElementType: { title: "横线", type: "hline" },
-        },
-        {
-          options: {
-            left: 235.5,
-            top: 220.5,
-            height: 32,
-            width: 342,
-            title: "自定义表格：用户可左键选中表头，右键查看可操作项，操作类似Excel，双击表头单元格可进行编辑。内容：title#field",
-            fontFamily: "微软雅黑",
-            textAlign: "center",
-            lineHeight: 15,
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 156,
-            top: 265.5,
-            height: 13,
-            width: 94,
-            title: "表头列大小可拖动",
-            fontFamily: "微软雅黑",
-            textAlign: "center",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 60,
-            top: 265.5,
-            height: 13,
-            width: 90,
-            title: "红色区域可拖动",
-            fontFamily: "微软雅黑",
-            textAlign: "center",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 60,
-            top: 285,
-            height: 56,
-            width: 511.5,
-            field: "table",
-            tableFooterRepeat: "",
-            fields: [
-              { text: "id", field: "id" },
-              { text: "姓名", field: "name" },
-              { text: "性别", field: "gender" },
-              { text: "数量", field: "count" },
-            ],
-            columns: [
-              [
-                { width: 85.25, colspan: 1, rowspan: 1, checked: true },
-                {
-                  title: "性别",
-                  field: "gender",
-                  width: 85.25,
-                  colspan: 1,
-                  rowspan: 1,
-                  checked: false,
-                },
-                {
-                  title: "姓名",
-                  field: "name",
-                  width: 85.25,
-                  align: "center",
-                  colspan: 1,
-                  rowspan: 1,
-                  checked: true,
-                  tableSummary: "count",
-                },
-                {
-                  title: "数量",
-                  field: "count",
-                  width: 85.25,
-                  align: "center",
-                  colspan: 1,
-                  rowspan: 1,
-                  checked: true,
-                  tableSummary: "sum",
-                },
-                {
-                  width: 85.25,
-                  colspan: 1,
-                  rowspan: 1,
-                  checked: true,
-                },
-                { width: 85.25, colspan: 1, rowspan: 1, checked: true },
-              ],
-            ],
-          },
-          printElementType: {
-            title: "表格",
-            type: "table",
-          },
-        },
-        {
-          options: {
-            left: 21,
-            top: 346.5,
-            height: 61.5,
-            width: 15,
-            title: "装订线",
-            lineHeight: 18,
-            fixed: true,
-            contentPaddingTop: 3.75,
-            backgroundColor: "#ffffff",
-          },
-          printElementType: { type: "text" },
-        },
-        {
-          options: {
-            left: 225,
-            top: 355,
-            height: 13,
-            width: 346.5,
-            title: "自定义模块：主要为开发人员设计，能够快速，简单，实现自己功能",
-            textAlign: "center",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 60, top: 370.5, height: 18, width: 79, title: "配置项表格", textAlign: "center" },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 225,
-            top: 385.5,
-            height: 38,
-            width: 346.5,
-            title: "配置模块：主要为客户使用，开发人员可以配置属性，字段，标题等，客户直接使用，配置模块请参考实例2",
-            fontFamily: "微软雅黑",
-            lineHeight: 15,
-            textAlign: "center",
-            color: "#d93838",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 60,
-            top: 487.5,
-            height: 13,
-            width: 123,
-            title: "长文本会自动分页",
-            textAlign: "center",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 60, top: 507, height: 40, width: 511.5, field: "longText" },
-          printElementType: { title: "长文", type: "longText" },
-        },
-        {
-          options: { left: 475.5, top: 565.5, height: 100, width: 100 },
-          printElementType: { title: "矩形", type: "rect" },
-        },
-        {
-          options: { left: 174, top: 568.5, height: 13, width: 90, title: "竖线", textAlign: "center" },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 60, top: 574.5, height: 100, width: 10 },
-          printElementType: { title: "竖线", type: "vline" },
-        },
-        {
-          options: { left: 210, top: 604.5, height: 13, width: 120, title: "横线", textAlign: "center" },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 130.5, top: 625.5, height: 10, width: 277 },
-          printElementType: { title: "横线", type: "hline" },
-        },
-        {
-          options: {
-            left: 364.5,
-            top: 649.5,
-            height: 13,
-            width: 101,
-            title: "矩形",
-            textAlign: "center",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 525, top: 784.5, height: 13, width: 63, title: "页尾线", textAlign: "center" },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: { left: 12, top: 786, height: 49, width: 49 },
-          printElementType: { title: "html", type: "html" },
-        },
-        {
-          options: {
-            left: 75,
-            top: 790.5,
-            height: 13,
-            width: 137,
-            title: "红色原型是自动定义的Html",
-            textAlign: "center",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-        {
-          options: {
-            left: 334.5,
-            top: 810,
-            height: 13,
-            width: 205,
-            title: "页眉线已上。页尾下以下每页都会重复打印",
-            textAlign: "center",
-          },
-          printElementType: { title: "自定义文本", type: "text" },
-        },
-      ],
-      paperNumberLeft: 565.5,
-      paperNumberTop: 819,
-    },
-  ],
+            "paperNumberLeft": 565.5,
+            "paperNumberTop": 819,
+            "paperNumberContinue": true,
+            "watermarkOptions": {},
+            "panelLayoutOptions": {}
+        }
+    ]
 };

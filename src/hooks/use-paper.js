@@ -3,8 +3,8 @@
  * @Author: CcSimple
  * @Github: https://github.com/CcSimple
  * @Date: 2023-02-09 13:32:39
- * @LastEditors: CcSimple
- * @LastEditTime: 2023-02-09 23:38:03
+ * @LastEditors: dongwj
+ * @LastEditTime: 2025-02-18 15:44:13
  */
 import { reactive, computed, toRefs } from "vue";
 import { getHiprintPrintTemplate } from "../utils/template-helper";
@@ -17,11 +17,13 @@ import { getHiprintPrintTemplate } from "../utils/template-helper";
 export function usePaper(key) {
   // 数据
   const state = reactive({
+    // 当前纸张
     curPaper: {
       type: "A4",
       width: 210,
       height: 296.6,
     },
+    // 其他纸张配置
     paperTypes: {
       A3: {
         width: 420,
@@ -48,12 +50,14 @@ export function usePaper(key) {
         height: 175.6,
       },
     },
-    // 自定义纸张
+    // 自定义纸张popup弹窗表示
     paperPopVisible: false,
+    // 设置纸张自定义纸张popup宽
     paperWidth: "220",
+    // 设置纸张自定义纸张popup高
     paperHeight: "80",
   });
-  // 计算属性
+  // 获取当前纸质类型 如A4，A5等
   const curPaperType = computed(() => {
     let type = "other";
     let types = state.paperTypes;
@@ -64,6 +68,7 @@ export function usePaper(key) {
         type = key;
       }
     }
+    console.log("type",type)
     return type;
   });
   const tp = () => {
